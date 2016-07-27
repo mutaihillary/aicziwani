@@ -1,20 +1,54 @@
+body {
+  background: azure;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 #mainpage{
-  background-color: grey;
+  font-size: 1.1rem;
 }
 #title{
-  font-size: 4rem;
+  font-size: 3rem;
   color:red;
+  font-weight:500;
+  padding-left: 50px;
+}
+#titlep{
+  font-weight:500;
+  padding-left: 50px;
+}
+s
+.image1 {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+.image1{
+  width: 100%;
 }
 
-#image1{
+#heading5{
+  font-style: oblique;
 
-width: 100%;
+}
+#p5{
+  font-style: italic;
+  font-color:orange;
+  font-size: 14px;
+}
+
+/*whyus*/
+#whyus p{
+  align-content: center;
+  line-height: 1.5rem;
+
+
 }
   /*social icon styles*/
   .fi-social-facebook {
     color: dodgerblue;
     font-size: 2rem;
+    width: 60%;
+    height: 45%;
   }
   .fi-social-youtube {
     color: red;
