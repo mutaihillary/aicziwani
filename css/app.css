@@ -1,9 +1,17 @@
 
 #mainpage{
-  background-color: blue;
+  background-color: grey;
+}
+#title{
+  font-size: 4rem;
+  color:red;
 }
 
-  /*icon styles*/
+#image1{
+
+width: 100%;
+}
+  /*social icon styles*/
   .fi-social-facebook {
     color: dodgerblue;
     font-size: 2rem;
