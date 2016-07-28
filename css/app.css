@@ -3,6 +3,15 @@ body {
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+#title:hover{
+  margin: 1em 0 1em 0;
+  padding:0 .2em 0 .2em;
+  border-left: .2em solid #111;
+  border-right: .2em solid #111;
+  border-top: .2em solid #111;
+  border-bottom: .2em solid #111;
+  transition: all .5s ease-in-out;
+}
 
 #mainpage{
   font-size: 1.1rem;
