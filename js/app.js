@@ -51,12 +51,5 @@ function phonenumber(inputtxt)
 }
 
 <!--all-->
-
-else
-{
-alert('Form Succesfully Submitted');
-window.location.reload()
-return true;
-}
 }
 </script>
