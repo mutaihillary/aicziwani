@@ -252,13 +252,13 @@ div#slider figure {
   padding: 1em 1em 1em 1em;
 }
 /*social icon styles*/
-#sticky-social a {
+#social a {
    position: relative;
    text-align: center;
    width: 150px;
    text-decoration: none;
 }
-  .fi-social-facebook {
+  .fa fa-facebook {
     color: dodgerblue;
     font-size: 2rem;
     width: auto;
