@@ -1,5 +1,4 @@
 
-<script>
 function formValidation()
 {
 var uname = document.registration.username;
@@ -35,21 +34,4 @@ uemail.focus();
 return false;
 }
 }
-<!--phone-->
-function phonenumber(inputtxt)
-{
-  var phoneno = /^\d{10}$/;
-  if((inputtxt.value.match(phoneno))
-        {
-      return true;
-        }
-      else
-        {
-        alert("message");
-        return false;
-        }
 }
-
-<!--all-->
-}
-</script>

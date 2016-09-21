@@ -1,6 +1,6 @@
 /** Used Only For Touch Devices **/
 ( function( window ) {
-
+	
 	// for touch devices: add class cs-hover to the figures when touching the items
 	if( Modernizr.touch ) {
 
