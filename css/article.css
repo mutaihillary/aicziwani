@@ -1,4 +1,4 @@
-r/* General Demo Style */
+/* General Demo Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 @font-face {
@@ -146,7 +146,7 @@ a:active {
 
 
 .grid {
-	padding: 20px 20px 100px 20px;
+	padding: 2px 2px 1px 2px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -155,7 +155,7 @@ a:active {
 
 .grid li {
 	display: inline-block;
-	width: 440px;
+	width: 380px;
 	margin: 0;
 	padding: 20px;
 	text-align: left;
