@@ -28,7 +28,7 @@ Header Section
     margin: 0;
     background: #362D30;
     border: none;
-    
+
 }
 
 .banner{
@@ -36,7 +36,7 @@ Header Section
     border: 0px solid;
     margin: 0px 0;
     height: auto;
-    background: #362D30;
+    background: violet;
 }
 
 .links{
@@ -46,7 +46,8 @@ Header Section
     padding: 0;
     border: none;
 }
-.logo {
+
+/*.logo {
     background: #F63C3D;
     position: absolute;
     width: 70px;
@@ -56,7 +57,7 @@ Header Section
 .logo img{
     height: 100%;
 }
-
+*/
 .navigation{
     position: absolute;
     top: 0;
@@ -83,7 +84,7 @@ Header Section
     height: 100%;
     display: inline-block;
     padding: 5px 10px;
-    font-size: 13px;
+    font-size: 18px;
     color: #ddd;
 }
 
@@ -124,7 +125,7 @@ Header Section
 .caption-text{
     width: 100%;
     padding: 180px 30px;
-    background: #362D30;
+    background: violet;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 0px;
 }
@@ -149,7 +150,7 @@ Header Section
     .caption-text{
         width: 100%;
         padding: 130px 30px;
-        background: #362D30;
+        background: blue;
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0px;
     }
@@ -174,7 +175,7 @@ Header Section
     .caption-text{
         width: 100%;
         padding: 130px 0px;
-        background: #362D30;
+        background: #blue;
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0px;
     }
@@ -199,7 +200,7 @@ Header Section
     .caption-text{
         width: 100%;
         padding: 130px 0px;
-        background: #362D30;
+        background: #blue;
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0px;
     }
@@ -305,7 +306,7 @@ background-color: yellow;
 }*/
 .col-3  {
     width: 33.33%;
-    
+
 }
 
 .blank .col-3{
@@ -384,14 +385,14 @@ background-color: yellow;
         padding-bottom: 100px;
         padding-top: 80px
     }
-    
+
     .discover-more {
         color: #000;
         padding-top: 40px;
         background: #FAFAFA;
         padding-left: 50px;
     }
-    
+
     .infinity-spaces {
         padding-right: 50px;
     }
@@ -487,13 +488,13 @@ background-color: yellow;
         display: inline-block;
         width: 100%;
     }
-    
+
     .history{
         padding-left: 50px;
         padding-right: 30px;
         padding-bottom: 120px;
     }
-    
+
     .sage-logo {
         text-align: right;
         padding-right: 50px;
@@ -513,7 +514,7 @@ Lower Section
     text-align: left;
     font-size: 24px;
     display: inline-block;
-    padding: 0 0px;
+    padding: 0 30px;
     background: #FAFAFA;
 }
 
@@ -594,7 +595,7 @@ Lower Section
         width: 33.33%;
         padding-right: 20px;
     }
-    
+
 }
 
 @media (min-width: 1200px) {
@@ -602,7 +603,7 @@ Lower Section
         width: 33.33%;
         padding-right: 50px;
     }
-    
+
 }
 
 .call-to-action {
@@ -647,7 +648,7 @@ Lower Section
 .journal h3{
     text-align: left;
     font-size: 40px;
-    padding-top: 250px;
+    padding-top: 20px;
     padding-bottom: 30px;
     font-family: 'Play', sans-serif;
 }
