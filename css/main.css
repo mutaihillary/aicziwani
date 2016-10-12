@@ -44,20 +44,20 @@ Responsive Grid Section
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
- 
+
 /* Attribute selector */
 [class*='col-'] {
     float: left;
     padding: 10px;
     border: 0px solid;
 }
- 
+
 /* Floats last ".bit-" to the right */
 [class*='col-']:last-of-type {
     padding-right: 10px;
     float: right;
 }
- 
+
 .row {
     width: 100%;
     clear: both;
@@ -155,7 +155,7 @@ Header Section
     padding: 0;
     margin: 0;
     background: #362D30;
-    
+
 }
 
 .banner{
@@ -171,6 +171,7 @@ Header Section
     height: 70px;
     background: #362D30;
 }
+/*
 .logo {
     background: #F63C3D;
     position: absolute;
@@ -181,7 +182,7 @@ Header Section
 .logo img{
     height: 100%;
 }
-
+*/
 .navigation{
     position: absolute;
     top: 0;
@@ -224,7 +225,7 @@ Header Section
 
 .navigation nav ul li a{
     text-decoration: none;
-/}
+}
 
 .social{
     position: absolute;
@@ -245,7 +246,7 @@ Header Section
 .caption-text{
     width: 100%;
     padding: 200px 300px;
-    background: blue;
+    background: #362D30;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -270,7 +271,7 @@ Header Section
     text-align: center;
     background: #fff;
     color: #000;
-    margin-left: 42% 
+    margin-left: 42%
 }
 
 .hrs {
@@ -314,8 +315,6 @@ Lower Section
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Play', sans-serif;
-}
-
 }
 .services .col-3{
     padding: 150px;
