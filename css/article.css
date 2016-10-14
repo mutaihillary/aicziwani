@@ -9,9 +9,9 @@
 
 .grid li {
 	display: inline-block;
-	width: 330px;
+	width: 270px;
 	margin: 0;
-	padding: 25px;
+	padding: 35px;
 	text-align: left;
 	position: relative;
 }
@@ -33,7 +33,7 @@
 	left: 0;
 	padding: 5px;
 	background: #2c3f52;
-	color: #ed4e6e;
+	color: #fff;
 }
 
 .grid figcaption h3 {
