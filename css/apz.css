@@ -221,9 +221,11 @@ div#slider figure {
   .menu{width: 100%;}
   .a{width: 100%;}
   a ul{width: 100%}
+  .images{width: 100%}
 }
 @media (min-width: 600px){
-
+.images{width: 100%}
 }
 @media (min-width: 900px){
+  .images{width: 100%}
 }
