@@ -9,9 +9,9 @@
 
 .grid li {
 	display: inline-block;
-	width: 270px;
+	width: 360px;
 	margin: 0;
-	padding: 35px;
+	padding: 10px;
 	text-align: left;
 	position: relative;
 }
@@ -71,8 +71,8 @@
 }
 
 .cs-style-2 figcaption {
-	height: 90px;
-	width: 100%;
+	height: 70px;
+	width: 65%;
 	top: auto;
 	bottom: 0;
 }
