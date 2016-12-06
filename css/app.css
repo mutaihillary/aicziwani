@@ -26,8 +26,9 @@ Header Section
     color: #fff;
     padding: 0;
     margin: 0;
-    background: #362D30;
-    border: none;
+    /*background: #362D30;*/
+    /*border: none;*/
+    border: 6px solid #949599;
 
 }
 
@@ -37,6 +38,7 @@ Header Section
     margin: 0px 0;
     height: auto;
     /*background: violet;*/
+    border: 6px solid violet;
 }
 
 .links{
@@ -45,6 +47,7 @@ Header Section
     background: #362D30;
     padding: 0;
     border: none;
+    border: 6px solid yellow;
 }
 
 /*.logo {
@@ -115,6 +118,7 @@ Header Section
     background: transparent;
     text-align: center;
     padding: 10px 5px;
+    border: 6px solid red;
 }
 
 .social i{
@@ -123,18 +127,26 @@ Header Section
 }
 
 .caption-text{
+    position: relative;
     width: 100%;
     padding: 180px 30px;
-    background : url(../images/churchf.jpg);
+    /*background : url(../images/churchf.jpg);*/
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     /*background: violet;*/
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 0px;
+    border: 6px solid green;
 }
-
+.caption-text img{
+    width: 100%;
+    position: absolute;
+    height:100%; 
+    opacity:1.0
+}
 .caption-text p{
+    position: absolute;
     font-size: 70px;
     text-align: center;
     font-family: 'Play', sans-serif;
@@ -143,6 +155,7 @@ Header Section
 }
 
 .caption-text h5{
+    position: absolute;
     padding: 18px 130px;
     font-size: 18px;
     text-align: center;
@@ -270,10 +283,12 @@ Content Section
 .blank {
     background: #362D30;
     padding: 0px;
+    border: 6px solid yellow;
 }
 .journal-blank{
     background-color: red;
     padding: 0px;
+    border: 6px solid yellow;
 }
 .col-3  {
     width: 33.33%;
