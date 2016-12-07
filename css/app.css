@@ -28,7 +28,7 @@ Header Section
     margin: 0;
     /*background: #362D30;*/
     /*border: none;*/
-    border: 6px solid #949599;
+    /*border: 6px solid #949599;*/
 
 }
 
@@ -36,9 +36,9 @@ Header Section
     padding: 0px;
     border: 0px solid;
     margin: 0px 0;
-    height: auto;
+    height: 90%;
     /*background: violet;*/
-    border: 6px solid violet;
+    /*border: 6px solid violet;*/
 }
 
 .links{
@@ -47,7 +47,7 @@ Header Section
     background: #362D30;
     padding: 0;
     border: none;
-    border: 6px solid yellow;
+    /*border: 6px solid yellow;*/
 }
 
 /*.logo {
@@ -118,7 +118,7 @@ Header Section
     background: transparent;
     text-align: center;
     padding: 10px 5px;
-    border: 6px solid red;
+    /*border: 6px solid red;*/
 }
 
 .social i{
@@ -129,21 +129,20 @@ Header Section
 .caption-text{
     position: relative;
     width: 100%;
-    padding: 180px 30px;
+    padding: 10px 30px;
     /*background : url(../images/churchf.jpg);*/
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*background: violet;*/
+    height: 85vh;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 0px;
-    border: 6px solid green;
+    /*border: 6px solid green;*/
 }
 .caption-text img{
     width: 100%;
     position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 0px;
     height:100%; 
-    opacity:1.0
+    border: 6px solid green;
 }
 .caption-text p{
     position: absolute;
@@ -156,7 +155,7 @@ Header Section
 
 .caption-text h5{
     position: absolute;
-    padding: 18px 130px;
+    padding: 280px 130px;
     font-size: 18px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -174,6 +173,13 @@ Header Section
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0px;
     }
+    .caption-text img{
+    width: 100%;
+    position: absolute;
+    align-content: center;
+    padding: 10px 10px;
+    height:90%; 
+}
     .caption-text p{
         font-size: 50px;
         text-align: center;
@@ -218,7 +224,7 @@ Header Section
 @media (max-width: 480px) {
     .caption-text{
         width: 100%;
-        padding: 130px 0px;
+        padding: 0px 0px;
         /*background: #blue;*/
         font-family: 'Open Sans', sans-serif;
         padding-bottom: 0px;
@@ -356,64 +362,12 @@ Content Section
     }
 }
 
-.our-history{
+.pastoral-team{
     font-size: 24;
     text-align: center;
     display: inline-block;
     padding: 0 15px;
     background: #FFFFFF;
-}
-
-.history{
-    padding-left: 300px;
-    padding-right: 30px;
-    padding-bottom: 120px;
-}
-
-.history h3{
-    color: #000;
-    font-size: 40px;
-    font-family: 'Play', sans-serif;
-    padding: 20px 0;
-}
-
-.history p{
-    color: #002;
-    margin-top: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
-.history .link{
-    color: #fff;
-    margin: 18px 0;
-    font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
-    height: auto;
-    padding: 10px 0;
-}
-
-.history a{
-    text-align: center;
-    color: #fff;
-    background: #F63C3D;
-    padding: 10px 30px;
-    font-family: 'Play', sans-serif;
-    margin-bottom: 5px;
-    margin-top: 20px;
-}
-
-.sage-logo {
-    text-align: right;
-    padding-right: 300px;
-    float: right;
-    padding-top: 0px;
-    margin-top: -40px;
-}
-
-.sage-logo img{
-    text-align: center;
-    float: right;
 }
 
 .projects-types {
@@ -447,12 +401,6 @@ Content Section
         padding-bottom: 30px;
         display: inline-block;
         width: 100%;
-    }
-
-    .history{
-        padding-left: 50px;
-        padding-right: 30px;
-        padding-bottom: 120px;
     }
 
 }
@@ -690,7 +638,7 @@ Lower Section
     margin-top: 20px;
 }
 
-.very-much-impressed{
+.impressed{
     padding: 20px;
     border: 1px solid;
     margin: 0px 0;
@@ -714,18 +662,18 @@ Lower Section
     color: #362D30
 }
 
-.very-much-impressed p{
+.impressed p{
     color: #eee;
     padding: 0;
     margin: 0;
     font-size: 14px;
 }
 
-.very-much-impressed a{
+.impressed a{
     color: #eee;
     padding: 0;
     margin: 0;
-    font-size: 70px;
+    font-size: 14px;
     margin-top: 170px;
 }
 
