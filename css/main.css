@@ -159,11 +159,12 @@ Header Section
 }
 
 .banner{
-    padding: 20px;
+    padding: 0px;
     border: 1px solid;
-    margin: 10px 0;
+    margin: 0px 0;
     height: auto;
-    background: #362D30;
+    background: #fff;
+    align-content: center;
 }
 
 .links{
@@ -244,8 +245,8 @@ Header Section
 
 .caption-text{
     width: 100%;
-    padding: 200px 300px;
-    background: #362D30;
+    padding: 0px 0px;
+    background: #fff;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -377,7 +378,7 @@ Lower Section
     border-bottom: 3px solid;
 }
 
-.very-much-impressed{
+.impressed{
     padding: 20px;
     border: 1px solid;
     margin: 10px 0;
@@ -388,7 +389,7 @@ Lower Section
     padding-left: 300px;
     padding-right: 300px;
 }
-.very-much-impressed img{
+.impressed img{
     height: 100px;
 }
 
@@ -482,21 +483,3 @@ Footer Section
     color: #000;
 }
 
-.terms {
-    height: 100%;
-    font-size: 12px;
-    text-align: right;
-    display: inline-block;
-    color: #000;
-}
-
-.terms ul{
-    display: inline-block;
-    float: right;
-    width: 100%;
-}
-
-.terms ul li{
-    display: inline-block;
-    color: #000;
-}
