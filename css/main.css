@@ -346,30 +346,29 @@ Lower Section
     margin: 0;
 }
 
-.call-to-action {
+.upcoming-events {
     padding: 20px;
     margin: 10px 0;
-    background-color: black;
-    color: white;
+    background-color: #fff;
+    color: #000;
     float: right;
     padding: 30px 20px !important;
     text-align: center;
-    background: #362D30;
 }
 
-.call-to-action h4{
+.upcoming-events h4{
     font-size: 20px;
     font-family: 'Play', sans-serif;
     padding: 10px
 }
 
-.call-to-action p{
+.upcoming-events p{
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px
 }
 
-.call-to-action a{
+.upcoming-events a{
     font-size: 12px;
     font-family: 'Play', sans-serif;
     padding-bottom:3px;
@@ -378,7 +377,7 @@ Lower Section
     border-bottom: 3px solid;
 }
 
-.impressed{
+.quick-footer{
     padding: 20px;
     border: 1px solid;
     margin: 10px 0;
@@ -389,48 +388,6 @@ Lower Section
     padding-left: 300px;
     padding-right: 300px;
 }
-.impressed img{
-    height: 100px;
-}
-
-.stay-connected{
-    padding: 20px;
-    border: 1px solid;
-    margin: 10px 0;
-}
-
-.connected {
-    padding-left: 300px;
-    padding-right: 100px
-}
-
-.connected h4{
-    text-align: left;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Play', sans-serif;
-    padding-right: 50px;
-}
-
-.connected p{
-    text-align: left;
-    font-size: 13px;
-    padding-bottom: 30px;
-    padding-right: 50px;
-}
-
-.connected input{
-    padding: 10px;
-}
-
-.connected a{
-    padding: 12px 20px;
-    background: #F63C3D;
-    font-family: 'Play', sans-serif;
-    font-size: 13px
-}
-
 .email{
     width: 70%;
     margin: 0;
