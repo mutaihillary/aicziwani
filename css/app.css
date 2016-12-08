@@ -507,38 +507,37 @@ Lower Section
 
 }
 
-.call-to-action {
+.upcoming-events {
     padding: 20px;
     margin: 10px 0;
-    background-color: black;
-    color: white;
+    background-color: #fff;
+    color: #000;
     float: right;
     padding: 30px 20px !important;
     text-align: center;
-    background: #362D30;
     width: 100%;
 }
 
-.call-to-action h4{
+.upcoming-events h4{
     font-size: 20px;
     font-family: 'Play', sans-serif;
     padding: 10px
 }
 
-.call-to-action p{
+.upcoming-events p{
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     padding: 10px
 }
 
-.call-to-action a{
+.upcoming-events a{
     font-size: 12px;
     font-family: 'Play', sans-serif;
     padding-bottom:3px;
     padding-left: 20px;
     padding-right: 20px;
     border-bottom: 3px solid;
-    color: #fff;
+    color: #000;
 }
 
 .journal {
@@ -638,7 +637,7 @@ Lower Section
     margin-top: 20px;
 }
 
-.impressed{
+.quick-footer{
     padding: 20px;
     border: 1px solid;
     margin: 0px 0;
@@ -650,26 +649,14 @@ Lower Section
     padding-right: 300px;
 }
 
-.more-articles {
-    text-align: center;
-    padding: 30PX;
-}
-
-.more-articles a{
-    font-size: 13px;
-    font-family: 'Play', sans-serif;
-    border-bottom: 3px solid #362D30;
-    color: #362D30
-}
-
-.impressed p{
+.quick-footer p{
     color: #eee;
     padding: 0;
     margin: 0;
     font-size: 14px;
 }
 
-.impressed a{
+.quick-footer a{
     color: #eee;
     padding: 0;
     margin: 0;
@@ -677,9 +664,6 @@ Lower Section
     margin-top: 170px;
 }
 
-.very-much-impressed img{
-    margin: 10px 30px;
-}
 /*..................................................................................
 
 Contact Section
