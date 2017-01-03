@@ -311,7 +311,7 @@ Lower Section
 
 .services h3{
     text-align: left;
-    font-size: 40px;
+    font-size: 25px;
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: 'Play', sans-serif;
@@ -357,7 +357,7 @@ Lower Section
 }
 
 .upcoming-events h3{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Play', sans-serif;
     padding: 10px
 }
