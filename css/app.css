@@ -129,7 +129,7 @@ Header Section
 .caption-text{
     position: relative;
     width: 100%;
-    padding: 10px 30px;
+    padding: 0px 0px;
     /*background : url(../images/churchf.jpg);*/
     height: 85vh;
     font-family: 'Open Sans', sans-serif;
@@ -142,7 +142,7 @@ Header Section
     background-repeat: no-repeat;
     padding: 0px 0px;
     height:100%; 
-    border: 6px solid green;
+    /*border: 6px solid green;*/
 }
 .caption-text p{
     position: absolute;
@@ -342,67 +342,20 @@ Content Section
     padding-left: 100px;
 }
 
-@media (max-width: 1200px) {
-    .highlighted-projects {
-        padding-left: 50px;
-        padding-right: 100px;
-        padding-bottom: 100px;
-        padding-top: 80px
-    }
-
-    .discover-more {
-        color: #000;
-        padding-top: 40px;
-        background: #FAFAFA;
-        padding-left: 50px;
-    }
-
-    .infinity-spaces {
-        padding-right: 50px;
-    }
-}
-
 .pastoral-team{
-    font-size: 24;
+    font-size: 24px;
     text-align: center;
     display: inline-block;
     padding: 0 15px;
     background: #FFFFFF;
 }
 
-.projects-types {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 30px;
-    display: inline-block;
-    width: 100%;
-}
-
-.projects-types .col-3 {
+.pastoral-team h3{
+    font-size: 25px;
     text-align: center;
     display: inline-block;
-}
-
-.projects-types h4 {
-    color: #F63C3D;
-    font-size: 40px;
-    padding-top: 20px;
-    font-family: 'Play', sans-serif;
-}
-
-.projects-types p {
-    font-size: 14px;
-}
-
-@media (max-width: 1200px) {
-    .projects-types {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 30px;
-        display: inline-block;
-        width: 100%;
-    }
-
+    padding: 0 15px;
+    background: #FFFFFF;
 }
 
 /*..................................................................................
@@ -445,7 +398,7 @@ Lower Section
 
 .services h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Play', sans-serif;
@@ -519,7 +472,7 @@ Lower Section
 }
 
 .upcoming-events h3{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Play', sans-serif;
     padding: 10px
 }
@@ -547,7 +500,7 @@ Lower Section
 
 .journal h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: 'Play', sans-serif;
@@ -676,6 +629,14 @@ Contact Section
     display: inline-block;
     padding: 0 30px;
     background: #fff;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Play', sans-serif;
 }
 
 @media (min-width: 480px) {
